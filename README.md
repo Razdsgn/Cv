@@ -1,4 +1,4 @@
-# Amir Mohseni Portfolio Website
+# R Portfolio Website
 
 A stunning, award-winning portfolio website built with Next.js 15, featuring smooth animations, parallax effects, and a sophisticated dark theme design inspired by amirmohseni.com.
 
