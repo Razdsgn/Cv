@@ -1,5 +1,5 @@
 import "./globals.css";
-import { LenisProvider } from "../components/lenis-provider.tsx";
+import { LenisProvider } from "../components/lenis-provider";
 
 export const metadata = {
   title: "Amir Mohseni – Creative Art Director",
