@@ -11,9 +11,9 @@
   "dependencies": {
     "@studio-freight/lenis": "latest",
     "framer-motion": "latest",
-    "next": "latest",
-    "react": "^14.0.0",
-    "react-dom": "latest"
+    "next": "14.0.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@types/node": "latest",
