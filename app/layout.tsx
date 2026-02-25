@@ -1,12 +1,5 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { LenisProvider } from "@/components/lenis-provider";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap"
-});
 
 export const metadata = {
   title: "Amir Mohseni – Creative Art Director",
@@ -30,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} dark scroll-smooth`}>
+    <html lang="en" className="dark scroll-smooth">
       <body className="min-h-screen bg-[#050507] text-neutral-100 antialiased selection:bg-orange-500 selection:text-slate-950">
         <LenisProvider>
           <div className="relative overflow-hidden">{children}</div>
