@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { LenisProvider } from "@/components/lenis-provider";
@@ -9,7 +8,7 @@ const inter = Inter({
   display: "swap"
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Amir Mohseni – Creative Art Director",
   description:
     "Award-winning Creative Art Director based in Canada. Winner of the world's most prestigious web design awards in UI, UX, and innovation.",
